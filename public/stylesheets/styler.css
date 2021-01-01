@@ -54,6 +54,10 @@
     min-height: 150px;
     background-color: #AAA;
     border-radius: 20px;
+    transition: transform .2s; /* Animation */
+  }
+  .thumbnail-image:hover {
+    transform: scale(1.5);
   }
   
   .video-bottom-section {
