@@ -14,10 +14,10 @@
 		return this.each(function() {
 
 			// Get video ID
-			var getvideoid = $(this).attr("youtubeid");
+			const getvideoid = $(this).attr("youtubeid");
 
 			// Default options
-			var settings = $.extend({
+			const settings = $.extend({
 				videoID: getvideoid,
 				autoPlay: true,
 				theme: "dark"
